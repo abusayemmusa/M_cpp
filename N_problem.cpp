@@ -40,6 +40,31 @@ int main(){
     cout<<"Sum of two numbers: " << c <<endl;
 }
 ==============================================================================================
+// Take two numbers and perform +, -, *, /, and %.
+==============================================================================================
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main(){
+    int a, b, c, add, sub, mul, div, mod;
+    a = 12;
+    b = 3;
+    c = 14;
+    add = a + b;
+    sub = a - b;
+    mul = a * b;
+    div = a / b;
+    mod = c % b;
+    cout<<"First number: " <<a<<endl;
+    cout<<"Secend number: "<<b<<endl;
+    cout<<"Third number: "<<c<<endl;
+    cout<<"add of two numbers: " << add <<endl;
+    cout<<"sub of two numbers: " << sub <<endl;
+    cout<<"mul of two numbers: " << mul <<endl;
+    cout<<"div of two numbers: " << div <<endl;
+    cout<<"Modulus of two numbers: " << div <<endl;
+}
 ==============================================================================================
 ==============================================================================================
 ==============================================================================================
