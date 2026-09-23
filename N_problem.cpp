@@ -203,5 +203,21 @@ int main(){
     }
 }
 ==============================================================================================
+// Check whether a number is positive, negative, or zero.
+==============================================================================================
+#include<iostream>
+using namespace std;
+int main(){
+    int num;
+    cout<<"Enter Your First Number: ";
+    cin>>num;
+    if (num == 0){
+        cout<<"Number is zero";
+    }else if (num > 0){
+        cout<< "Number is positive";
+    }else{
+        cout<<"Number is negative";
+    }
+}
 ==============================================================================================
 
