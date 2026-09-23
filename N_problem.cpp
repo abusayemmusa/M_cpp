@@ -155,5 +155,21 @@ int main(){
     return 0;
 };
 ==============================================================================================
+//Calculate the average of three numbers.
+==============================================================================================
+#include<iostream>
+using namespace std;
+
+int main(){
+    int num1, num2, num3, avg;
+    cout<<"Enter your first number: ";
+    cin>>num1;
+    cout<<"Enter your first number: ";
+    cin>>num2;
+    cout<<"Enter your first number: ";
+    cin>>num3;
+    avg = (num1 + num2 + num3)/3;
+    cout<<"Average number is: "<<avg<<endl;
+}
 ==============================================================================================
 ==============================================================================================
