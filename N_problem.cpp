@@ -114,7 +114,46 @@ int main(){
     cout<<"Area of rectangle: "<<A<<endl;
 }
 ==============================================================================================
+// Convert Celsius to Fahrenheit.
 ==============================================================================================
+#include<iostream>
+using namespace std;
+
+void fahrenheit(){
+    // °F = (°C × 9/5) + 32
+    float f, c;
+    cout<<"Enter temperature in Celsius: ";
+    cin>> c;
+    f = (c * 9/5) + 32;
+    cout<< "Your Fahrenheit temperature is: "<<f<<endl;
+};
+void celsius(){
+    // °C = (°F − 32) × 5/9
+    float f, c;
+    cout<<"Enter temperature in Fahrenheit: ";
+    cin>> f;
+    c = (f - 32)*5/9;
+    cout<< "Your Celsius temperature is: "<<c<<endl;
+}
+
+void temperature(){
+    float f,c;
+    string fahr, cels, temp;
+    cout<<"Enter your temperature fahr or cels : ";
+    getline(cin, temp);
+    if (temp == "fahr"){
+       fahrenheit();
+    }else if(temp == "cels"){
+        celsius();
+    }else{
+        cout<<"Invalid input"<<endl;
+    }
+};
+
+int main(){
+    temperature();
+    return 0;
+};
 ==============================================================================================
 ==============================================================================================
 ==============================================================================================
